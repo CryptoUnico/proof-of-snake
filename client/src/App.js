@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import ProofOfSnakeContract from "./contracts/ProofOfSnake.json";
+//import ProofOfSnakeContract from "./contracts/ProofOfSnake.json";
+import SnakeArcadeContract from "./contracts/SnakeArcade.json";
 import Snake from "./snake";
 import Target from "./target";
 import getWeb3 from "./getWeb3";
@@ -50,10 +51,10 @@ class App extends Component {
 
       // Get the contract instance.
       const networkId = await web3.eth.net.getId();
-      const deployedNetwork = ProofOfSnakeContract.networks[networkId];
+      const deployedNetwork = SnakeArcadeContract.networks[networkId];
       const contractAddress = deployedNetwork.address;
       const instance = new web3.eth.Contract(
-        ProofOfSnakeContract.abi,
+        SnakeArcadeContract.abi,
         deployedNetwork && deployedNetwork.address
       );
 
