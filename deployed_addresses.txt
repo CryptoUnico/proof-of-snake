@@ -2,3 +2,5 @@ Proof-of-Snake Contract details:
 
 Testnet: Rinkeby
 Address: 0x92A326067ed1413c6a36D1D1f639feAe44a860cb
+
+Arcade Address: 0xce1f822bccb80ddacdb70818b781721f50b46fdc

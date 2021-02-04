@@ -4,7 +4,7 @@
 
 The Proof-of-Snake game is based off the classic snake game that we all know and love with a twist; the high scorer earns Ethereum from every courageous attempt to beat his high score. You earn by being the best! In addition, a ERC-721 token is rewarded whenever a player beats the current high score.
 
-This is made possible by tracking the high scoreand token ownership the with smart contracts that run on the Ethereum blockchain. The Proof-of-Snake project currently lives on the Rinkeby blockchain. In order to try it, you will need to have test ether on the Rinkeby network that you can request from a faucet.
+This is made possible by tracking the high score and token ownership the with smart contracts that run on the Ethereum blockchain. The Proof-of-Snake project currently lives on the Rinkeby blockchain. In order to try it, you will need to have test ether on the Rinkeby network that you can request from a faucet.
 
 ## How does Proof-of-Snake work?
 
